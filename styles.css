@@ -1,17 +1,18 @@
+
 body {
-    font-family: "Montserrat";
-    color: fff;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-    }
+  font-family: "Montserrat";
+  color: fff;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  }
 
-    .big-heading{
+  .big-heading{
 
-        position: absolute;
-        font-size: 60px;
-        font-weight: bold;
-        }
+      position: absolute;
+      font-size: 60px;
+      font-weight: bold;
+      }
 
 
 .bohomenu{
@@ -22,68 +23,57 @@ color: black;
 /*    NavBars    */
 
 .navbar {
-    padding: 0 0 4.5rem;
-  }
-  
-  .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-  }
-  
-  .nav-item{
-    padding: 0 18px;
-  }
-  
-  .nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat-Light";
-  }
+  padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
 
 
 
-  .title-image{
-width: 1000px;
+.title-image{
+width: 100%;
 padding-top: 50px;
 right: 60%;
 width: 100%;
 position: relative;
 
-  }
+}
 
 
-  .row{
-    width: auto;
-    height: auto;
-    background-color: #f19db5;
-    position: relative;
-    background: linear-gradient(180deg,#fddc6b,#f19db5)100%;
-    padding: 100px 0;
-    
+  .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-
-    .image-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      
-      img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-      }
-      
-      h1 {
-        font-size: 10rem;
-        text-align: center;
-        margin-bottom: 1rem;
-        font-weight: 600px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: azure;
-      }
-      
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 10rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-weight: 600px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: azure;
+    }
