@@ -1,4 +1,4 @@
-
+/*TITLE*/
 body {
   font-family: "Montserrat";
   color: fff;
@@ -35,6 +35,7 @@ body {
     
     }
     
+    /*TOPCONTAINER*/
     
   .image-container {
           display: flex;
@@ -57,25 +58,41 @@ body {
     position: absolute;
     color: blanchedalmond;
     top: 50%; /* Add this line */
-  transform: translateY(-50%); /* Add this line */
+    transform: translateY(-50%); /* Add this line */
+  
     
+/*MID-CONTAINER*/
+
   }
-  .mid-container{
-    background-color: rgb(155, 0, 0);
+  .events-mid-container{
+    background-color: rgb(45, 44, 45);
     color: blanchedalmond;
-    padding: 15 5;
-    margin: 15 5;
+    padding: 15 0 5;
+    margin: 15 0 5;
     height: 500px;
-
-
+   
   }
   #mid-container {
     background-color: rgb(45, 44, 45);
     color: blanchedalmond;
-
+    height: 400px;
+    padding-top: 50px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
 
   }
 
+  .font-second-container {
+    color: blanchedalmond;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+  
+  }
 
   .private-location-tabs-section {
     display: flex;
