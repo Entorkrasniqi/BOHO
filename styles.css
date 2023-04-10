@@ -36,7 +36,7 @@ body {
     }
     
     /*TOPCONTAINER*/
-    
+
   .image-container {
           display: flex;
           flex-direction: column;
@@ -76,22 +76,36 @@ body {
     background-color: rgb(45, 44, 45);
     color: blanchedalmond;
     height: 400px;
-    padding-top: 50px;
+    padding-top: 60px;
     position: relative;
     margin: 0 auto;
     text-align: center;
+    
 
   }
+  h2 {
+    padding-left: 100px;
+    padding-right: 100px;
 
+  }
   .font-second-container {
     color: blanchedalmond;
     height: 500px;
     text-align: center;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 60px;
+    padding-left: 300px;
+    padding-right: 300px;
     position: relative;
-  
+  }
+  .menu-font {
+    padding-top: 60px;
+    }
+  #main-font-third-container{
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+    position: relative;
+    
   }
 
   .private-location-tabs-section {
