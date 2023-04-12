@@ -8,7 +8,8 @@ body {
   }
 
   .navbar {
-    padding: 0 0 1.5rem;
+    padding: 10 0 0.5rem;
+    
   }
   
   .navbar-brand {
@@ -19,7 +20,9 @@ body {
   
   .nav-item{
     padding: 0 18px;
+    
   }
+
   
   .nav-link {
     font-size: 1.2rem;
@@ -72,6 +75,13 @@ body {
     height: 500px;
    
   }
+  .menu-font-container{
+    background-color: rgb(45, 44, 45);
+    color: blanchedalmond;
+    padding-top: 50px;
+    text-align: center;
+  }
+  
   #mid-container {
     background-color: rgb(45, 44, 45);
     color: blanchedalmond;
