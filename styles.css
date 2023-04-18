@@ -76,7 +76,7 @@ body {
    
   }
   .menu-font-container{
-    background-color: rgb(0, 0, 0);
+    background-color: #323232;
     color: blanchedalmond;
     padding-top: 50px;
     text-align: center;
@@ -148,6 +148,7 @@ body {
     float: left;
     margin-right: 20px; /* Adjust the value as per your requirement */
     height: 500px;
+    position: relative;
   }
   
   .text-container {
@@ -166,7 +167,7 @@ body {
 
   #footer {
     color: blanchedalmond;
-    background-color: rgb(0, 0, 0);
+    background-color: #FFAC41;
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 50px;
