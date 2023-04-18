@@ -9,7 +9,7 @@ body {
 
   .navbar {
     padding: 10 0 0.5rem;
-    
+    background-color: #854836 !important;
   }
   
   .navbar-brand {
@@ -76,15 +76,15 @@ body {
    
   }
   .menu-font-container{
-    background-color: #323232;
+    background-color: #F5B553;
     color: blanchedalmond;
     padding-top: 50px;
     text-align: center;
   }
   
   #mid-container {
-    background-color: rgb(0, 0, 0);
-    color: blanchedalmond;
+    background-color: #000000;
+    color: #F7F7F7;
     height: 400px;
     padding-top: 60px;
     position: relative;
@@ -93,7 +93,7 @@ body {
 
   }
   .second-container {
-    color: blanchedalmond;
+    color: #F7F7F7;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -106,7 +106,7 @@ body {
 
   }
   .font-second-container {
-    color: blanchedalmond;
+    color: #F7F7F7;
     height: 500px;
     text-align: center;
     padding-top: 60px;
@@ -161,13 +161,13 @@ body {
 
   .btn {
 
-    color: blanchedalmond;
+    color: #F7F7F7;
     
   }
-
+/*FOOTER*/
   #footer {
-    color: blanchedalmond;
-    background-color: #FFAC41;
+    color: #F7F7F7;
+    background-color: #854836;
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 50px;
