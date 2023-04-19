@@ -1,10 +1,11 @@
 /*TITLE*/
-body {
+  body {
   font-family: "Montserrat";
   color: fff;
   text-align: center;
   background-color: rgb(255, 255, 255);
   margin: 0;
+  background-color: #F5B553;
   }
 
   .navbar {
@@ -155,6 +156,8 @@ body {
     margin-right: 20px; /* Adjust the value as per your requirement */
     height: 500px;
     position: relative;
+    background-color: #F5B553;
+    
   }
   
   .text-container {
