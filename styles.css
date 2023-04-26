@@ -57,7 +57,6 @@
         }
 
        
-      
         
         
   
@@ -82,8 +81,11 @@
     height: 500px;
    
   }
+
+  
+  
   .menu-font-container{
-    background-color: #F5B553;
+    background-color: #262323;
     color: blanchedalmond;
     padding-top: 50px;
     text-align: center;
@@ -149,6 +151,8 @@
     display: flex;
     align-items: center;
     position: relative;
+    color: #F7F7F7;
+    background-color: #262323;
   }
   
   .image-text-container img {
@@ -165,14 +169,15 @@
   }
 
   #bar-mid-container {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
   }
 
   .btn {
 
-    color: #F7F7F7;
+    color: #000000;
     
   }
+
 /*FOOTER*/
   #footer {
     color: #F7F7F7;
@@ -180,8 +185,12 @@
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 50px;
+    padding-bottom: 20px;
   }
 
+
+
+  
 
 
 
@@ -212,6 +221,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   
+  
 }
 
 .button-1:hover,
@@ -219,9 +229,7 @@
   background-color: #1d1d1d;
 }
 
-.menu-font-container {
-  background-color: #cd9d9d;
-}
+
   
 
   
