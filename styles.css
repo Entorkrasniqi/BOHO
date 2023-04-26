@@ -75,7 +75,7 @@
   }
   .events-mid-container {
     background-color: rgb(0, 0, 0);
-    color: blanchedalmond;
+    color: #F7F7F7;
     padding: 15 0 5;
     margin: 15 0 5;
     height: 500px;
@@ -86,9 +86,10 @@
   
   .menu-font-container{
     background-color: #262323;
-    color: blanchedalmond;
+    color: #F7F7F7;
     padding-top: 50px;
     text-align: center;
+    
   }
   
   #mid-container {
@@ -99,7 +100,8 @@
     position: relative;
     margin: 0 auto;
     text-align: center;
-
+    margin-bottom: 50px;
+    
   }
   .second-container {
     color: #F7F7F7;
@@ -107,6 +109,7 @@
     padding-left: 50px;
     padding-right: 50px;
     font-weight: bold;
+  
   }
 
   h2 {
@@ -126,12 +129,18 @@
   .menu-font {
     padding-top: 60px;
     }
+
   #main-font-third-container{
     padding-left: 300px;
     padding-right: 300px;
     text-align: center;
     position: relative;
     
+  }
+
+  .bohofoodpic-container{
+    padding-top: 30px;
+    height: 700px;
   }
 
   .private-location-tabs-section {
