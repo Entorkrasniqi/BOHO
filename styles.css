@@ -5,18 +5,20 @@
   text-align: center;
   background-color: rgb(255, 255, 255);
   margin: 0;
-  background-color: #000000;
+  background-color: #f4f0eb;
   }
 
   .navbar {
     padding: 10 0 0.5rem;
-    background-color: #262323 !important;
+    background-color: #f4f0eb !important;
+
   }
   
   .navbar-brand {
-  font-family: "Ubuntu";
+  font-family: "Montserrat";
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 1000;
+  color: #262323;
   }
   
   .nav-item{
@@ -28,7 +30,10 @@
   .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
+    color: #262323;
   }
+
+
 
   .title-image{
     width: 100%;
@@ -65,7 +70,7 @@
     font-weight: 100;
     text-align: center;
     position: absolute;
-    color: blanchedalmond;
+    color: #f4f0eb;
     top: 50%; /* Add this line */
     transform: translateY(-50%); /* Add this line */
     
@@ -74,11 +79,12 @@
 
   }
   .events-mid-container {
-    background-color: rgb(0, 0, 0);
-    color: #F7F7F7;
+    background-color: #f4f0eb;
+    color: #262323;
     padding: 15 0 5;
     margin: 15 0 5;
     height: 500px;
+    padding-top: 50px;
    
   }
 
@@ -93,23 +99,21 @@
   }
   
   #mid-container {
-    background-color: #000000;
-    color: #F7F7F7;
+    background-color: #f4f0eb;
+    color: #262323;
     height: 400px;
-    padding-top: 60px;
+    padding-top: 20px;
     position: relative;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
     
   }
   .second-container {
-    color: #F7F7F7;
+    color: #262323;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    font-weight: bold;
-  
+    font-weight: 1000;
   }
 
   h2 {
@@ -118,13 +122,14 @@
 
   }
   .font-second-container {
-    color: #F7F7F7;
+    color: #262323;
     height: 500px;
     text-align: center;
     padding-top: 60px;
     padding-left: 300px;
     padding-right: 300px;
     position: relative;
+
   }
   .menu-font {
     padding-top: 60px;
@@ -189,7 +194,7 @@
 
 /*FOOTER*/
   #footer {
-    color: #F7F7F7;
+    color: #262323;
     background-color: #854836;
     padding-left: 120px;
     padding-right: 120px;
@@ -203,13 +208,13 @@
 
 
 
-/* CSS */
+/* BUTTON */
 .button-1 {
   background-color: #470000;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -235,8 +240,20 @@
 
 .button-1:hover,
 .button-1:focus {
-  background-color: #1d1d1d;
+  background-color: #854836;
 }
+
+
+
+a{
+  color: #262323;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
 
 
   
