@@ -114,12 +114,15 @@
     text-align: center;
     
   }
+
   .second-container {
+    background-color: #f4f0eb;
     color: #262323;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
     font-weight: 1000;
+    margin-bottom: 0px;
   }
 
   h2 {
@@ -128,15 +131,17 @@
 
   }
   .font-second-container {
+    background-color: #f4f0eb;
     color: #262323;
-    height: 500px;
     text-align: center;
     padding-top: 60px;
     padding-left: 300px;
     padding-right: 300px;
-    position: relative;
+    margin: 0 auto;
+    padding-bottom: 50px;
 
   }
+
   .menu-font {
     padding-top: 60px;
     }
@@ -146,8 +151,11 @@
     padding-right: 300px;
     text-align: center;
     position: relative;
+    padding-top: 60px;
     
   }
+
+
 
   .bohofoodpic-container{
     padding-top: 30px;
@@ -173,6 +181,7 @@
     position: relative;
     color: #F7F7F7;
     background-color: #262323;
+  
   }
   
   .image-text-container img {
@@ -196,6 +205,12 @@
 
     color: #000000;
     
+  }
+
+  .room-available-btn{
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 50px;
   }
 
 /*FOOTER*/
