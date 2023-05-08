@@ -201,17 +201,7 @@
     background-color: rgb(0, 0, 0);
   }
 
-  .btn {
-
-    color: #000000;
-    
-  }
-
-  .room-available-btn{
-    margin-left: 500px;
-    margin-right: 500px;
-    padding-bottom: 50px;
-  }
+ 
 
 /*FOOTER*/
   #footer {
@@ -274,6 +264,18 @@ a{
 
 a:hover {
   color: white;
+}
+
+.btn {
+
+  color: #000000;
+  
+}
+
+.room-available-btn{
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-bottom: 50px;
 }
 
 
